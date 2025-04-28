@@ -1,0 +1,325 @@
+#contact {
+    height: 80vh;
+    margin: 0 250px;
+    box-sizing: border-box;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.form-and-address {
+    display: flex;    
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.localization {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    margin: 0 20px;
+}
+
+
+.banner-contact img {        
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+.contacts-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    margin: 10px 0;    
+}
+.contacts-links a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.contacts-links a:hover {    
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.phone, .whatsapp, .instagram {
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.address {
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.form-container {
+    width: 450px;    
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;    
+}
+.form-container h1 {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
+
+  
+.form-group {
+    margin-bottom: 15px;
+}
+  
+.form-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: .8rem;
+}
+  
+.form-input, 
+.form-textarea {
+    width: 100%;    
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.form-textarea {
+    height: 75px;
+}
+  
+.form-input:focus, 
+.form-textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+  
+.form-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.form-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 359px) {
+    #contact {
+        height: 100vh;      
+        margin: 0 10px;      
+    }
+    .contacts-links {
+        gap: 5px;
+        margin: 8px 0;
+    }
+    .phone, .whatsapp, .instagram {
+        font-size: .6rem;
+    }
+    .address {
+        font-size: .5rem;
+    }
+    .form-and-address {
+        display: flex;
+        flex-direction: column;    
+        justify-content: center;
+        align-items: center;
+        gap: 10px;        
+    }
+    .localization {
+        height: 155px;
+        width: 100%;
+        margin: 2px 5px;
+
+    }
+    .form-container {
+        width: 100%;
+        padding: 2px 8px;
+    }    
+    
+    .form-container h1 {
+        font-size: .8rem;
+        margin-bottom: 3px;
+    }
+    .form-container label {
+        font-size: .6rem;
+    }
+      
+    .form-input, 
+    .form-textarea {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 10px;
+        padding: 3px 3px;
+    }
+    .form-textarea {
+        height: 55px;
+    }
+    .form-button {
+        font-size: 12px;
+        padding: 3px;
+    }
+    .form-group {
+        margin-bottom: 4px;
+    }   
+}
+
+
+@media (min-width: 360px) and (max-width: 780px) {
+    #contact {
+        height: 100vh;      
+        margin: 0 10px;      
+    }
+    .contacts-links {
+        gap: 10px;
+        margin: 10px 0;
+    }
+    .phone, .whatsapp, .instagram {
+        font-size: .7rem; 
+    }
+    .address {
+        font-size: .6rem;
+    }
+    .form-and-address {
+        display: flex;
+        flex-direction: column;    
+        justify-content: center;
+        align-items: center;
+        gap: 20px;        
+    }
+    .localization {
+        height: 200px;
+        width: 100%;
+        margin: 8px 5px;
+    }
+    .form-container {
+        width: 100%;
+        padding: 2px 8px;
+    }    
+    
+    .form-container h1 {
+        font-size: 1.2rem;
+        margin-bottom: 3px;
+    }
+    .form-container label {
+        font-size: .7rem;
+    }
+      
+    .form-input, 
+    .form-textarea {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 12px;
+        padding: 4px 3px;
+    }
+    .form-textarea {
+        height: 55px;
+    }
+    .form-button {
+        font-size: 12px;
+        padding: 3px;
+    }
+    .form-group {
+        margin-bottom: 6px;
+    }   
+}
+
+@media (min-width: 781px) and (max-width: 1180px) {
+    #contact {
+       height: 80vh;      
+       margin: 0 20px;
+    }
+    .contacts-links {
+        gap: 15px;
+        margin: 15px 0;
+    }
+    .phone, .whatsapp, .instagram {
+        font-size: 1.5rem;
+    }
+    .form-and-address {        
+        gap: 0;        
+    }
+    .form-container h1 {
+        font-size: 1.2rem;
+        margin-bottom: 3px;
+    }
+    .form-container label {
+        font-size: .8rem;
+    }
+    .form-input, 
+    .form-textarea {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+        padding: 3px 3px;
+    }
+    .form-textarea {
+        height: 75px;
+    }
+    .form-button {
+        font-size: 13px;
+        padding: 3px;
+    }
+    .form-group {
+        margin-bottom: 10px;
+    } 
+    .localization {
+        height: 400px;
+        width: 100%;
+        margin: 2px 5px;
+    }
+    
+}
+@media (min-width: 1181px) and (max-width: 1680px) {
+    #contact {
+        height: 85vh;      
+        margin: 0 20px;
+     }
+     .contacts-links {
+        gap: 19px;
+        margin: 15px 5px;
+     }
+     .phone, .whatsapp, .instagram {
+         font-size: 1.8rem;
+     }
+     .form-and-address {        
+         gap: 0;        
+     }
+     .form-container h1 {
+         font-size: 1.2rem;
+         margin-bottom: 3px;
+     }
+     .form-container label {
+         font-size: .8rem;
+     }
+     .form-input, 
+     .form-textarea {
+         border: 1px solid #ccc;
+         border-radius: 5px;
+         font-size: 14px;
+         padding: 5px 4px;
+     }
+     .form-textarea {
+         height: 75px;
+     }
+     .form-button {
+         font-size: 15px;
+         padding: 3px;
+     }
+     .form-group {
+         margin-bottom: 10px;
+     } 
+     .localization {
+         height: 400px;
+         width: 100%;
+         margin: 2px 2px;
+     }  
+}

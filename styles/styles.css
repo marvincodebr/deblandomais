@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('header.css');
+@import url('home.css');
+@import url('services.css');
+@import url('about.css');
+@import url('contact.css');
+@import url('footer.css');
+@import url('som_automotivo.css');
+@import url('central-multimidia.css');
+@import url('eletrica.css');
+@import url('pelicula.css');
+@import url('envelopamento.css');
+@import url('assistencia.css');
+@import url('politica-privacidade.css');
+
+:root {
+   --primary-color: #10158b; /*BLUE*/
+   --secondary-color: #198af6; /*LIGHT BLUE*/
+   --background-color: ; /*  */
+   --text-color: #ffffff; /*WHITE*/
+   --text-color-secondary: #ffed27; /*YELLOW*/
+   --error-color: ; /*  */
+
+
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Montserrat", sans-serif;
+   text-decoration: none;
+   scroll-behavior: smooth;
+   list-style: none;
+
+   
+}
+
+html {
+   scroll-behavior: smooth;
+   scroll-padding-top: 120px;
+}
+
+main {
+   width: 100%;
+   padding-top: 120px;
+}
+
+
+
+/* COOKIE INÍCIO 🟢 */
+.cookie-banner {
+   position: sticky;
+   bottom: 50px;
+   left: 50px;
+   width: 950px;
+   border-radius: 5px;
+   border: 2px groove var(--primary-color);
+   background-color: var(--text-color);
+   color: var(--primary-color);
+   padding: 15px;
+   text-align: center;
+   font-size: 14px;
+   font-weight: 500;
+   display: none;
+   opacity: 95%;
+   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+   animation: fadeIn 1.5s ease-in-out forwards;
+}
+.cookie-banner a {
+   color: var(--primary-color);
+}
+.cookie-banner i {
+   font-size: 20px;
+}
+
+.cookie-banner button {
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   margin: 5px;
+   cursor: pointer;
+   border-radius: 5px;
+   font-size: 16px;
+   transition: all 0.3s ease-in-out;
+}
+.cookie-banner button:hover {
+   opacity: 0.9;
+}
+
+@media (max-width: 359px) {
+   html {
+      scroll-padding-top: 85px;
+   }
+   main {
+      padding-top: 85px;
+   }
+   .cookie-banner {
+      position: fixed;
+      bottom: 10px;
+      left: 0;
+      width: 100%;
+      font-size: 9px;
+      margin: 0 1px;      
+   }
+   .cookie-banner i {
+      font-size: 11px;
+   }   
+   .cookie-banner button {      
+      padding: 5px 10px;
+      margin: 5px;      
+      font-size: 11px;
+      
+   }
+}
+
+
+@media (min-width: 360px) and (max-width: 780px) {
+   html {
+      scroll-padding-top: 100px;
+   }
+   main {
+      padding-top: 100px;
+   }
+   .cookie-banner {
+      position: fixed;
+      bottom: 15px;
+      left: 0;    
+      width: 95%;
+      font-size: 9px;
+      margin: 0 9px;
+      padding: 6px 2px;
+      align-items: center;    
+   }
+   .cookie-banner i {
+      font-size: 11px;
+   }   
+   .cookie-banner button {      
+      padding: 5px 10px;
+      margin: 5px;      
+      font-size: 12px;
+      
+   }   
+}
+@media (min-width: 781px) and (max-width: 1180px) {
+   .cookie-banner {
+      position: fixed;
+      bottom: 200px;
+      left: 0;    
+      width: 95%;
+      font-size: 15px;
+      margin: 0 20px;
+      padding: 6px 2px;
+      align-items: center;    
+   }
+   .cookie-banner i {
+      font-size: 17px;
+   }   
+   .cookie-banner button {      
+      padding: 5px 10px;
+      margin: 5px;      
+      font-size: 18px;
+      
+   } 
+}
+
+

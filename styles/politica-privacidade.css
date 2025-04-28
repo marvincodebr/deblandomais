@@ -1,0 +1,110 @@
+
+
+#politica_privacidade {
+    height: 150vh;
+    margin: 0 250px;
+    box-sizing: border-box;
+}
+
+.banner-privacidade img {
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.text-privacidade h2 {
+    color: var(--primary-color);
+    font-size: 30px;
+    font-weight: 600;
+}
+.text-privacidade h3 {
+    color: var(--primary-color);
+    font-size: 22px;
+    font-weight: 600;
+}
+.text-privacidade li {
+    list-style: circle;
+    color: var(--primary-color);
+    font-weight: 450;
+}
+.text-privacidade p {
+    color: var(--primary-color);
+}
+
+@media (max-width: 359px) {
+    #politica_privacidade {
+        height: 220vh;
+        margin: 0 15px;
+        box-sizing: border-box;
+    }
+    .text-privacidade h2 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .text-privacidade h3 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .text-privacidade li {
+        font-weight: 450;
+        font-size: 12px;
+    }
+    .text-privacidade p {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 780px) {
+    #politica_privacidade {
+        height: 150vh;
+        margin: 0 15px;
+        box-sizing: border-box;
+    }
+    .text-privacidade h2 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .text-privacidade h3 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .text-privacidade li {
+        font-weight: 450;
+        font-size: 12px;
+    }
+    .text-privacidade p {
+        font-size: 12px;
+    }
+    
+}
+
+@media (min-width: 781px) and (max-width: 1180px) {
+    #central-multimidia {
+        height: 105vh;
+        margin: 0 10px;
+        box-sizing: border-box;
+    }
+    .cmedia { 
+        width: 100%;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+    }
+    
+    .img-cmedia {
+        display: none;
+    }
+    .cmedia p {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1680px) {
+    #central-multimidia {
+        height: 105vh;
+        margin: 0 10px;
+        box-sizing: border-box;
+    }
+}

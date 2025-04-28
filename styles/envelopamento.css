@@ -1,0 +1,127 @@
+
+#envelopamento {
+    height: 80vh;
+    margin: 0 250px;
+    box-sizing: border-box;
+}
+
+.banner-envelopamento img {
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+.container-envelopamento { 
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-envelopamento p {
+    color: var(--primary-color);
+    margin: 8px 20px;
+    font-size: 18px;
+    text-align: justify;
+    
+}
+
+.container-envelopamento p span {
+    font-weight: 600;
+    font-family: "Orbitron", serif;
+    /* margin-left: 50px; */
+
+}
+
+.img-envelopamento {
+    width: 500px;
+    margin: 20px 10px;
+    
+}
+.img-envelopamento img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 359px) {
+    #envelopamento {
+        height: 100vh;
+        margin: 0 10px;
+        box-sizing: border-box;
+    }
+    .container-envelopamento { 
+        width: 100%;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+    }
+    .img-envelopamento {
+        display: none;
+    }
+    
+    .container-envelopamento p {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 780px) {
+    #envelopamento {
+        height: 80vh;
+        margin: 0 10px;
+        box-sizing: border-box;
+    }
+    .container-envelopamento{ 
+        width: 100%;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+    }
+    .img-envelopamento {
+        display: none;
+    }
+    
+    .container-envelopamento p {
+        font-size: 12px;
+    }
+    
+}
+
+@media (min-width: 781px) and (max-width: 1180px) {
+    #envelopamento {
+        height: 105vh;
+        margin: 0 10px;
+        box-sizing: border-box;
+    }
+    .container-envelopamento { 
+        width: 100%;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+    }
+    
+    .img-envelopamento {
+        display: none;
+    }
+    .container-envelopamento p {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1680px) {
+    #envelopamento {
+        height: 105vh;
+        margin: 0 10px;
+        box-sizing: border-box;
+    }
+}
