@@ -235,7 +235,7 @@
    padding: 10px;
    border-radius: 5px;
    position: relative;
-   max-width: 50%;
+   max-width: 20%;
 }
 .popup-content video {
    width: 100%;
