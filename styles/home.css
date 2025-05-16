@@ -235,7 +235,7 @@
    padding: 10px;
    border-radius: 5px;
    position: relative;
-   max-width: 20%;
+   max-width: 33%;
 }
 .popup-content video {
    width: 100%;
@@ -244,15 +244,17 @@
 .close-btn {
    position: absolute;
    top: 10px; right: 10px;
-   background: rgba(155, 0, 0, 0.911);
+   background: rgba(197, 0, 0, 0.8);
    color: white;
-   font-size: 25px;
+   font-size: 24px;
    border: none;
-   padding: 15px;
+   padding: 8px;
    cursor: pointer;
    border-radius: 5px;
    z-index: 1002;
    animation: moveBot 2s ease-in-out alternate;
+   margin: 3px;
+   font-weight: 600;
 }
 .close-btn:hover {
    background: rgb(197, 0, 0);
@@ -277,11 +279,16 @@
 }
 .textpopup h2 {
    font-family: "Orbitron", serif;
+   font-size: 25px;
 }
 
 
 
 /* POPUP VÍDEO 🔴*/
+
+
+
+
 
 
 @media (max-width: 359px) {
@@ -325,10 +332,10 @@
 
    #whatsapp-button {
       position: fixed;
-      bottom: 80px;
+      bottom: 35px;
       right: 10px;
       z-index: 1002;
-      width: 35%;
+      width: 40%;
       
    }
    #whatsapp-button a img {
@@ -347,7 +354,7 @@
    }
    .popup-content {
       padding: 8px;
-      max-width: 70%;
+      max-width: 75%;
    }
    .popup-content video {
       width: 100%;
@@ -366,7 +373,7 @@
    }
    .textpopup h2 {
       font-family: "Orbitron", serif;
-      font-size: 20px;
+      font-size: 12px;
    }
    
 }
@@ -411,10 +418,10 @@
    }
    #whatsapp-button {
       position: fixed;
-      bottom: 70px;
+      bottom: 65px;
       right: 20px;
       z-index: 1002;
-      width: 35%;
+      width: 38%;
       
    }
    #whatsapp-button a img {
@@ -433,7 +440,7 @@
    }
    .popup-content {
       padding: 8px;
-      max-width: 70%;
+      max-width: 90%;
    }
    .popup-content video {
       width: 100%;
@@ -452,7 +459,7 @@
    }
    .textpopup h2 {
       font-family: "Orbitron", serif;
-      font-size: 20px;
+      font-size: 15px;
    }
    
    
@@ -496,10 +503,10 @@
    }
    #whatsapp-button {
       position: fixed;
-      bottom: 150px;
+      bottom: 100px;
       right: 25px;
       z-index: 1002;
-      width: 25%;
+      width: 35%;
       
    }
    #whatsapp-button a img {
@@ -511,7 +518,7 @@
    }
    .popup-content {
       padding: 8px;
-      max-width: 95%;
+      max-width: 80%;
    }
    .popup-content video {
       width: 100%;
@@ -542,9 +549,9 @@
    #whatsapp-button {
       position: fixed;
       bottom: 50px;
-      right: 20px;
+      right: 30px;
       z-index: 1002;
-      width: 15%;
+      width: 17%;
       
    }
    #whatsapp-button a img {
@@ -556,7 +563,7 @@
    }
    .popup-content {
       padding: 8px;
-      max-width: 95%;
+      max-width: 39%;
    }
    .popup-content video {
       width: 100%;
@@ -575,7 +582,7 @@
    }
    .textpopup h2 {
       font-family: "Orbitron", serif;
-      font-size: 30px;
+      font-size: 20px;
    }
 }
 
