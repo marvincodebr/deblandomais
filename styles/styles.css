@@ -76,7 +76,7 @@ main {
 }
 
 .cookie-banner button {
-   background-color: #4CAF50;
+   background-color: #10a33c;
    color: white;
    border: none;
    padding: 10px 20px;
@@ -87,7 +87,7 @@ main {
    transition: all 0.3s ease-in-out;
 }
 .cookie-banner button:hover {
-   opacity: 0.9;
+   opacity: 0.8;
 }
 
 @media (max-width: 359px) {
