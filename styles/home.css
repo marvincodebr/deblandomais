@@ -282,7 +282,9 @@
    font-size: 25px;
 }
 
-
+.alertapop img {
+   width: 100%;
+}
 
 /* POPUP VÍDEO 🔴*/
 
@@ -563,7 +565,7 @@
    }
    .popup-content {
       padding: 8px;
-      max-width: 39%;
+      /*max-width: 39%;*/
    }
    .popup-content video {
       width: 100%;
