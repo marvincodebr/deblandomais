@@ -218,6 +218,13 @@ ScrollReveal().reveal('.contacts-links', {
     delay: 1000,         // Atraso antes de começar a animação
     reset: true         // Se a animação deve ser executada novamente ao rolar para fora e voltar
 });
+ScrollReveal().reveal('.localization', {
+    origin: 'bottom',   // De onde a animação começa (bottom, top, left, right)
+    distance: '100px',   // Distância percorrida pelo elemento
+    duration: 3000,     // Duração da animação em milissegundos
+    delay: 1000,         // Atraso antes de começar a animação
+    reset: true         // Se a animação deve ser executada novamente ao rolar para fora e voltar
+});
 ScrollReveal().reveal('.popup', {
     
     duration: 2500,     // Duração da animação em milissegundos
