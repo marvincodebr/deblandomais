@@ -228,39 +228,6 @@ ScrollReveal().reveal('.popup', {
 // ANIMAÇÃO SCROLL REVEAL FIM 🔴
 
 
-
-
-// FORM E-MAILJS INÍCIO 🟢
-// Inicia o EmailJS com a sua Public Key 
-emailjs.init("rRF9IojEKFXzX0Td3");
-
-// Seleciona o formulário pelo ID e adiciona um event listener ao submit
-document.getElementById("budget-form").addEventListener("submit", function (event) {
-  event.preventDefault(); // Previne o comportamento padrão de recarregar a página
-
-  // Coleta os dados do formulário
-  const formData = {
-    name: document.getElementById("name").value,
-    email: document.getElementById("email").value,
-    phone: document.getElementById("phone").value,
-    message: document.getElementById("budget-text").value,
-  };
-
-  // Envia os dados usando o EmailJS
-  emailjs.send("service_6r123hi", "template_tqpkcnz", formData)
-    .then(function (response) {
-      console.log("SUCCESS!", response.status, response.text);
-      alert("Mensagem enviada com sucesso! Entraremos em contato em breve.");
-      document.getElementById("budget-form").reset(); // Reseta o formulário
-    })
-    .catch(function (error) {
-      console.error("FAILED...", error);
-      alert("Ocorreu um erro ao enviar sua mensagem. Tente novamente mais tarde.");
-    });
-});
-// FORM E-MAILJS FIM 🔴
-
-
 // BOTÃO MENU MOBILE INÍCIO 🟢
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -383,3 +350,34 @@ function fecharPopup() {
 }
 
 // VIDEO POPUP 🔴
+
+
+// FORM E-MAILJS INÍCIO 🟢
+// Inicia o EmailJS com a sua Public Key 
+emailjs.init("rRF9IojEKFXzX0Td3");
+
+// Seleciona o formulário pelo ID e adiciona um event listener ao submit
+document.getElementById("budget-form").addEventListener("submit", function (event) {
+  event.preventDefault(); // Previne o comportamento padrão de recarregar a página
+
+  // Coleta os dados do formulário
+  const formData = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    phone: document.getElementById("phone").value,
+    message: document.getElementById("budget-text").value,
+  };
+
+  // Envia os dados usando o EmailJS
+  emailjs.send("service_6r123hi", "template_tqpkcnz", formData)
+    .then(function (response) {
+      console.log("SUCCESS!", response.status, response.text);
+      alert("Mensagem enviada com sucesso! Entraremos em contato em breve.");
+      document.getElementById("budget-form").reset(); // Reseta o formulário
+    })
+    .catch(function (error) {
+      console.error("FAILED...", error);
+      alert("Ocorreu um erro ao enviar sua mensagem. Tente novamente mais tarde.");
+    });
+});
+// FORM E-MAILJS FIM 🔴
