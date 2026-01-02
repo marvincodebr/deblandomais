@@ -114,7 +114,7 @@
 
 @media (max-width: 359px) {
     #contact {
-        height: 100vh;      
+        height: 80vh;      
         margin: 0 10px;      
     }
     .contacts-links {
@@ -135,9 +135,9 @@
         gap: 10px;        
     }
     .localization {
-        height: 155px;
+        height: 250px;
         width: 100%;
-        margin: 2px 5px;
+        margin: 2px 0px;
 
     }
     .form-container {
@@ -175,18 +175,18 @@
 
 @media (min-width: 360px) and (max-width: 780px) {
     #contact {
-        height: 100vh;      
+        height: 73vh;      
         margin: 0 10px;      
     }
     .contacts-links {
         gap: 10px;
-        margin: 10px 0;
+        margin: 20px 0;
     }
     .phone, .whatsapp, .instagram {
-        font-size: .7rem; 
+        font-size: 1.1rem; 
     }
     .address {
-        font-size: .6rem;
+        font-size: .8rem;
     }
     .form-and-address {
         display: flex;
@@ -196,9 +196,9 @@
         gap: 20px;        
     }
     .localization {
-        height: 200px;
+        height: 350px;
         width: 100%;
-        margin: 8px 5px;
+        margin: 30px 0;
     }
     .form-container {
         width: 100%;
@@ -239,10 +239,10 @@
     }
     .contacts-links {
         gap: 15px;
-        margin: 15px 0;
+        margin: 20px 0;
     }
     .phone, .whatsapp, .instagram {
-        font-size: 1.5rem;
+        font-size: 2.3rem;
     }
     .form-and-address {        
         gap: 0;        
@@ -272,9 +272,9 @@
         margin-bottom: 10px;
     } 
     .localization {
-        height: 400px;
+        height: 450px;
         width: 100%;
-        margin: 2px 5px;
+        margin: 40px 0;
     }
     
 }
