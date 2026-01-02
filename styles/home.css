@@ -284,6 +284,7 @@
 
 .popup-content img {
    width: 100%;
+   border-radius: 3px;
 }
 
 /* POPUP VÍDEO 🔴*/
@@ -565,7 +566,7 @@
    }
    .popup-content {
       padding: 8px;
-      /*max-width: 39%;*/
+      max-width: 39%;
    }
    .popup-content video {
       width: 100%;
